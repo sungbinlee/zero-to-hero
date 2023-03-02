@@ -4,6 +4,25 @@
     <title>My Embedded YouTube Videos</title>
     <style>
       /* CSS for video container */
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #222;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px #ccc;
+  transition: text-shadow 0.2s ease-in-out;
+}
+
+header h1:hover {
+  text-shadow: 4px 4px #999;
+}
+
       .video-container {
         width: 100%;
         height: 0;
@@ -111,33 +130,48 @@
   </head>
   <body>
         <div class="main-container">
-      <h1>My Embedded YouTube Videos</h1>
+      <header>
+  	<h1>From Zero to Hero: Advocating for Beginner-friendly Programming Resources</h1>
+	</header>
 
-      <div class="video-container" onclick="handleClick('VIDEO_ID_1')">
+      <div class="video-container" onclick="handleClick('dnTKmR4rtkk')">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dnTKmR4rtkk" frameborder="0" allowfullscreen></iframe>
+        <h2>Python intro video (variables, if-else statement)</h2>
+        <p>Christian Puga</p>
+      </div>
+
+      <div class="video-container" onclick="handleClick('af78Xdw9qhk')">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/af78Xdw9qhk" frameborder="0" allowfullscreen></iframe>
+        <h2>C++ intro video (variables and if-else statement)</h2>
+        <p>Rodwell Matchon</p>
+      </div>
+
+      <div class="video-container" onclick="handleClick('h43-Fh1KBIE')">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/h43-Fh1KBIE" frameborder="0" allowfullscreen></iframe>
+        <h2>Basic C# Programming</h2>
+        <p>Jilliana May Vertucio</p>
+      </div>
+
+      <div class="video-container" onclick="handleClick('luBbwx5LFzE')">
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/luBbwx5LFzE" frameborder="0" allowfullscreen></iframe>
-        <h2>Video Title 1</h2>
-        <p>Author 1</p>
+        <h2>C Programming Language (Simple Calculator)</h2>
+        <p>Ricky Lloren</p>
       </div>
-
-      <div class="video-container" onclick="handleClick('VIDEO_ID_2')">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
-        <h2>Video Title 2</h2>
-        <p>Author 2</p>
+      <div class="video-container" onclick="handleClick('HcvjXyLdxzQ')">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HcvjXyLdxzQ" frameborder="0" allowfullscreen></iframe>
+        <h2>Basics of Java programming: making a simple program with Java</h2>
+        <p>Sungbin Lee</p>
       </div>
-
-      <div class="video-container" onclick="handleClick('VIDEO_ID_3')">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
-        <h2>Video Title 3</h2>
-        <p>Author 3</p>
+      <div class="video-container" onclick="handleClick('HcvjXyLdxzQ')">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HcvjXyLdxzQ" frameborder="0" allowfullscreen></iframe>
+        <h2>Basics of Java programming: making a simple program with Java</h2>
+        <p>Sungbin Lee</p>
       </div>
-
-      <div class="video-container" onclick="handleClick('VIDEO_ID_4')">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
-        <h2>Video Title 4</h2>
-        <p>Author 4</p>
+      <div class="video-container" onclick="handleClick('HcvjXyLdxzQ')">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HcvjXyLdxzQ" frameborder="0" allowfullscreen></iframe>
+        <h2>Basics of Java programming: making a simple program with Java</h2>
+        <p>Sungbin Lee</p>
       </div>
-
-      <button class="button">Watch More Videos</button>
 
     </div>
 
